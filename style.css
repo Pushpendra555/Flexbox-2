@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    color:white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.box1{background: red;}
+.box2{background: green;}
+.box3{background: black;}
+.box4{background: violet;}
+.box5{background: brown;}
+.box6{background: orangered;}
+.box7{background: purple;}
+.box8{background: yellow;}
+.box9{background: blue;}
+.box10{background: pink;}
+
+.container{
+    display:flex;
+    /* justify-content: flex-start; */
+    /* (flex-start) use to move the content to start side */
+    /* justify-content: flex-end;   (it moves the content to the left that is end) */
+    border: 5px solid black;
+    /* justify-content: center;  */
+    /* justify-content: space-between; ( items are evenly distributed in the line; first item is on the start line, last item on the end line) */
+    /* justify-content: space-evenly; (tems are distributed so that the spacing between any two items (and the space to the edges) is equal.) */
+     height: 100vh;
+     /* align-items: flex-start;
+     align-items: flex-end;
+     align-items: center;
+     align-items: stretch; */
+     align-items: baseline; /*(the base line of the content will remain same )*/
+}
+.box1{font-size: 30px;}
+.box2{font-size: 50px;}
+.box3{font-size: 70px;}
+.box4{font-size: 90px;}
+.box5{font-size: 130px;}
+.box6{font-size: 110px;}
+.box7{font-size: 90px;}
+.box8{font-size: 70px;}
+.box9{font-size: 60px;}
+.box10{font-size: 160px;}
+
